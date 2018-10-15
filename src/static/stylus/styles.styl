@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+body 
+    font-family 'Montserrat', sans-serif
+    text-align center
+    text-transform uppercase
+    letter-spacing .5em
+    top 15%
+    height 100vh
+    /* background linear-gradient(to right, red , yellow)*/
+.blocks-container
+    @media(min-width 320px)
+        margin 0 auto
+        max-width 320px
+        font-size 10px
+    @media(min-width 660px)
+        margin auto 10px auto 10px   
+        width auto
+        max-width none
+        font-size inherit 
+h1 
+    font 600 3.5em 'Montserrat', sans-serif
+    color rgba(0,0,0,.5)
+    text-align center
+    text-transform uppercase
+    letter-spacing .5em
+    width 100%
+    text-shadow 5px 1px 7px #33171775
+
+
+h3 
+    font 900 1em 'Montserrat', sans-serif
+    color rgba(0,0,0,.5)
+    text-align center
+    text-transform none
+    letter-spacing 0.01em
+#root, .container
+    height 100%
+.container 
+    display flex
+    flex-direction column
+    justify-content center
+
+input    
+    border 1px solid #348AA7
+    height 41px  
+    text-align center
+.color1, .color2
+    margin-bottom 10px    
+button
+  display inline-block
+  padding 15px
+  margin-right 5px
+  height 41px
+  min-width 100px
+  background #348AA7
+  border none
+  outline none
+  color white
+  font-family inherit
+  font-weight 900
+  font-size 20px
+  border-radius 3px
+  box-shadow 0 5px 0px darken(#348AA7,0)
+  border-bottom 2px solid #30809b
+  &:hover
+      box-shadow 0 4px 1px #2e7a94
+      border-bottom 2px solid #2a7088
+      transition all 0.1s ease-in
+      background #2e7a94
+  &:active
+    transform translateY(4px)
+    border-bottom-width 2px
+    box-shadow none
+.block-3
+    display inline-block
+    vertical-align middle	
