@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import BackgroundChange from './BackgroundChange';
+import './static/css/styles.css';
+import 'normalize.css'; 
 ReactDOM.render(<BackgroundChange />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
